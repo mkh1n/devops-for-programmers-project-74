@@ -1,0 +1,392 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.5.0
+2 info using node@v20.12.2
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 8ms
+10 timing config:load:file:/root/.npmrc Completed in 6ms
+11 timing config:load:user Completed in 6ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 21ms
+16 timing npm:load:configload Completed in 22ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 3ms
+19 timing npm:load:mkdirplogs Completed in 3ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-05-29T08_40_06_207Z-
+25 verbose logfile /root/.npm/_logs/2024-05-29T08_40_06_207Z-debug-0.log
+26 timing npm:load:logFile Completed in 118ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 164ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 535ms
+33 timing idealTree:userRequests Completed in 0ms
+34 silly idealTree buildDeps
+35 timing idealTree:#root Completed in 1ms
+36 timing idealTree:buildDeps Completed in 3ms
+37 timing idealTree:fixDepFlags Completed in 0ms
+38 timing idealTree Completed in 558ms
+39 timing reify:loadTrees Completed in 3433ms
+40 timing reify:diffTrees Completed in 211ms
+41 silly reify mark retired [ '/root/node_modules/better-sqlite3' ]
+42 silly reify mark retired [ '/root/node_modules/caniuse-lite' ]
+43 silly reify mark retired [ '/root/node_modules/date-fns' ]
+44 silly reify mark retired [ '/root/node_modules/es-abstract' ]
+45 silly reify mark retired [ '/root/node_modules/es5-ext' ]
+46 silly reify mark retired [ '/root/node_modules/eslint' ]
+47 silly reify mark retired [ '/root/node_modules/fsevents' ]
+48 silly reify mark retired [ '/root/node_modules/lodash' ]
+49 silly reify mark retired [ '/root/node_modules/moment' ]
+50 silly reify mark retired [ '/root/node_modules/rxjs' ]
+51 silly reify mark retired [ '/root/node_modules/sodium-native' ]
+52 silly reify mark retired [ '/root/node_modules/webpack' ]
+53 silly reify mark retired [ '/root/node_modules/acorn', '/root/node_modules/.bin/acorn' ]
+54 silly reify mark retired [
+54 silly reify   '/root/node_modules/babel-plugin-istanbul/node_modules/semver',
+54 silly reify   '/root/node_modules/babel-plugin-istanbul/node_modules/.bin/semver'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/root/node_modules/browserslist',
+55 silly reify   '/root/node_modules/.bin/browserslist'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/root/node_modules/color-support',
+56 silly reify   '/root/node_modules/.bin/color-support'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/root/node_modules/concurrently',
+57 silly reify   '/root/node_modules/.bin/concurrently',
+57 silly reify   '/root/node_modules/.bin/conc'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/root/node_modules/create-jest',
+58 silly reify   '/root/node_modules/.bin/create-jest'
+58 silly reify ]
+59 silly reify mark retired [ '/root/node_modules/cssesc', '/root/node_modules/.bin/cssesc' ]
+60 silly reify mark retired [ '/root/node_modules/envinfo', '/root/node_modules/.bin/envinfo' ]
+61 silly reify mark retired [
+61 silly reify   '/root/node_modules/eslint-config-airbnb-base/node_modules/semver',
+61 silly reify   '/root/node_modules/eslint-config-airbnb-base/node_modules/.bin/semver'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/root/node_modules/eslint-plugin-import/node_modules/semver',
+62 silly reify   '/root/node_modules/eslint-plugin-import/node_modules/.bin/semver'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/root/node_modules/esprima',
+63 silly reify   '/root/node_modules/.bin/esparse',
+63 silly reify   '/root/node_modules/.bin/esvalidate'
+63 silly reify ]
+64 silly reify mark retired [ '/root/node_modules/fastify-cli', '/root/node_modules/.bin/fastify' ]
+65 silly reify mark retired [
+65 silly reify   '/root/node_modules/fastify-objectionjs/node_modules/knex',
+65 silly reify   '/root/node_modules/fastify-objectionjs/node_modules/.bin/knex'
+65 silly reify ]
+66 silly reify mark retired [ '/root/node_modules/generify', '/root/node_modules/.bin/generify' ]
+67 silly reify mark retired [ '/root/node_modules/glob', '/root/node_modules/.bin/glob' ]
+68 silly reify mark retired [
+68 silly reify   '/root/node_modules/import-local',
+68 silly reify   '/root/node_modules/.bin/import-local-fixture'
+68 silly reify ]
+69 silly reify mark retired [ '/root/node_modules/is-ci', '/root/node_modules/.bin/is-ci' ]
+70 silly reify mark retired [
+70 silly reify   '/root/node_modules/is-expression/node_modules/acorn',
+70 silly reify   '/root/node_modules/is-expression/node_modules/.bin/acorn'
+70 silly reify ]
+71 silly reify mark retired [ '/root/node_modules/is-docker', '/root/node_modules/.bin/is-docker' ]
+72 silly reify mark retired [ '/root/node_modules/jest', '/root/node_modules/.bin/jest' ]
+73 silly reify mark retired [ '/root/node_modules/jest-cli', '/root/node_modules/.bin/jest' ]
+74 silly reify mark retired [
+74 silly reify   '/root/node_modules/js-beautify',
+74 silly reify   '/root/node_modules/.bin/css-beautify',
+74 silly reify   '/root/node_modules/.bin/html-beautify',
+74 silly reify   '/root/node_modules/.bin/js-beautify'
+74 silly reify ]
+75 silly reify mark retired [ '/root/node_modules/js-yaml', '/root/node_modules/.bin/js-yaml' ]
+76 silly reify mark retired [ '/root/node_modules/jsesc', '/root/node_modules/.bin/jsesc' ]
+77 silly reify mark retired [ '/root/node_modules/json5', '/root/node_modules/.bin/json5' ]
+78 silly reify mark retired [ '/root/node_modules/knex', '/root/node_modules/.bin/knex' ]
+79 silly reify mark retired [
+79 silly reify   '/root/node_modules/markdown-it',
+79 silly reify   '/root/node_modules/.bin/markdown-it'
+79 silly reify ]
+80 silly reify mark retired [ '/root/node_modules/mime', '/root/node_modules/.bin/mime' ]
+81 silly reify mark retired [ '/root/node_modules/mkdirp', '/root/node_modules/.bin/mkdirp' ]
+82 silly reify mark retired [ '/root/node_modules/mustache', '/root/node_modules/.bin/mustache' ]
+83 silly reify mark retired [ '/root/node_modules/nanoid', '/root/node_modules/.bin/nanoid' ]
+84 silly reify mark retired [ '/root/node_modules/node-gyp', '/root/node_modules/.bin/node-gyp' ]
+85 silly reify mark retired [ '/root/node_modules/nopt', '/root/node_modules/.bin/nopt' ]
+86 silly reify mark retired [
+86 silly reify   '/root/node_modules/node-gyp-build',
+86 silly reify   '/root/node_modules/.bin/node-gyp-build',
+86 silly reify   '/root/node_modules/.bin/node-gyp-build-optional',
+86 silly reify   '/root/node_modules/.bin/node-gyp-build-test'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/root/node_modules/npm-check-updates',
+87 silly reify   '/root/node_modules/.bin/npm-check-updates',
+87 silly reify   '/root/node_modules/.bin/ncu'
+87 silly reify ]
+88 silly reify mark retired [ '/root/node_modules/pacote', '/root/node_modules/.bin/pacote' ]
+89 silly reify mark retired [
+89 silly reify   '/root/node_modules/parse-github-url',
+89 silly reify   '/root/node_modules/.bin/parse-github-url'
+89 silly reify ]
+90 silly reify mark retired [ '/root/node_modules/pino', '/root/node_modules/.bin/pino' ]
+91 silly reify mark retired [
+91 silly reify   '/root/node_modules/pino-pretty',
+91 silly reify   '/root/node_modules/.bin/pino-pretty'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/root/node_modules/prebuild-install',
+92 silly reify   '/root/node_modules/.bin/prebuild-install'
+92 silly reify ]
+93 silly reify mark retired [ '/root/node_modules/rc', '/root/node_modules/.bin/rc' ]
+94 silly reify mark retired [ '/root/node_modules/resolve', '/root/node_modules/.bin/resolve' ]
+95 silly reify mark retired [ '/root/node_modules/rimraf', '/root/node_modules/.bin/rimraf' ]
+96 silly reify mark retired [ '/root/node_modules/semver', '/root/node_modules/.bin/semver' ]
+97 silly reify mark retired [
+97 silly reify   '/root/node_modules/sequelize-cli',
+97 silly reify   '/root/node_modules/.bin/sequelize',
+97 silly reify   '/root/node_modules/.bin/sequelize-cli'
+97 silly reify ]
+98 silly reify mark retired [ '/root/node_modules/sigstore', '/root/node_modules/.bin/sigstore' ]
+99 silly reify mark retired [
+99 silly reify   '/root/node_modules/sqlite3/node_modules/node-gyp',
+99 silly reify   '/root/node_modules/sqlite3/node_modules/.bin/node-gyp'
+99 silly reify ]
+100 silly reify mark retired [ '/root/node_modules/terser', '/root/node_modules/.bin/terser' ]
+101 silly reify mark retired [
+101 silly reify   '/root/node_modules/tsconfig-paths/node_modules/json5',
+101 silly reify   '/root/node_modules/tsconfig-paths/node_modules/.bin/json5'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/root/node_modules/update-browserslist-db',
+102 silly reify   '/root/node_modules/.bin/update-browserslist-db'
+102 silly reify ]
+103 silly reify mark retired [ '/root/node_modules/uuid', '/root/node_modules/.bin/uuid' ]
+104 silly reify mark retired [
+104 silly reify   '/root/node_modules/webpack-cli',
+104 silly reify   '/root/node_modules/.bin/webpack-cli'
+104 silly reify ]
+105 silly reify mark retired [ '/root/node_modules/which', '/root/node_modules/.bin/node-which' ]
+106 silly reify mark retired [
+106 silly reify   '/root/node_modules/@babel/core/node_modules/semver',
+106 silly reify   '/root/node_modules/@babel/core/node_modules/.bin/semver'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/root/node_modules/@babel/helper-compilation-targets/node_modules/semver',
+107 silly reify   '/root/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/root/node_modules/@babel/parser',
+108 silly reify   '/root/node_modules/.bin/parser'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/root/node_modules/@fastify/secure-session',
+109 silly reify   '/root/node_modules/.bin/secure-session'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/js-yaml',
+110 silly reify   '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/.bin/js-yaml'
+110 silly reify ]
+111 silly reify mark retired [ '/root/node_modules/tree-kill', '/root/node_modules/.bin/tree-kill' ]
+112 silly reify mark retired [
+112 silly reify   '/root/node_modules/@npmcli/git/node_modules/which',
+112 silly reify   '/root/node_modules/@npmcli/git/node_modules/.bin/node-which'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/root/node_modules/@npmcli/installed-package-contents',
+113 silly reify   '/root/node_modules/.bin/installed-package-contents'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/root/node_modules/@npmcli/promise-spawn/node_modules/which',
+114 silly reify   '/root/node_modules/@npmcli/promise-spawn/node_modules/.bin/node-which'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/root/node_modules/@npmcli/run-script/node_modules/which',
+115 silly reify   '/root/node_modules/@npmcli/run-script/node_modules/.bin/node-which'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/root/node_modules/editorconfig',
+116 silly reify   '/root/node_modules/.bin/editorconfig'
+116 silly reify ]
+117 silly reify moves {
+117 silly reify   '/root/node_modules/better-sqlite3': '/root/node_modules/.better-sqlite3-05zcEFE3',
+117 silly reify   '/root/node_modules/caniuse-lite': '/root/node_modules/.caniuse-lite-WwVtlZxB',
+117 silly reify   '/root/node_modules/date-fns': '/root/node_modules/.date-fns-MX3iQIox',
+117 silly reify   '/root/node_modules/es-abstract': '/root/node_modules/.es-abstract-syGQnhnQ',
+117 silly reify   '/root/node_modules/es5-ext': '/root/node_modules/.es5-ext-1vO1Xec7',
+117 silly reify   '/root/node_modules/eslint': '/root/node_modules/.eslint-32RcPCuK',
+117 silly reify   '/root/node_modules/fsevents': '/root/node_modules/.fsevents-UWOA9WMK',
+117 silly reify   '/root/node_modules/lodash': '/root/node_modules/.lodash-9xDH7KKe',
+117 silly reify   '/root/node_modules/moment': '/root/node_modules/.moment-vYjxE6Ix',
+117 silly reify   '/root/node_modules/rxjs': '/root/node_modules/.rxjs-5NldqmSZ',
+117 silly reify   '/root/node_modules/sodium-native': '/root/node_modules/.sodium-native-sAOehJRw',
+117 silly reify   '/root/node_modules/webpack': '/root/node_modules/.webpack-QBnuXB6H',
+117 silly reify   '/root/node_modules/acorn': '/root/node_modules/.acorn-OYO8Vd0a',
+117 silly reify   '/root/node_modules/.bin/acorn': '/root/node_modules/.bin/.acorn-k9FDyM6r',
+117 silly reify   '/root/node_modules/babel-plugin-istanbul/node_modules/semver': '/root/node_modules/babel-plugin-istanbul/node_modules/.semver-TUj31otZ',
+117 silly reify   '/root/node_modules/babel-plugin-istanbul/node_modules/.bin/semver': '/root/node_modules/babel-plugin-istanbul/node_modules/.bin/.semver-wnPsGcUN',
+117 silly reify   '/root/node_modules/browserslist': '/root/node_modules/.browserslist-OfG1AnsB',
+117 silly reify   '/root/node_modules/.bin/browserslist': '/root/node_modules/.bin/.browserslist-ZaSG5DyI',
+117 silly reify   '/root/node_modules/color-support': '/root/node_modules/.color-support-GYmcy5r0',
+117 silly reify   '/root/node_modules/.bin/color-support': '/root/node_modules/.bin/.color-support-8iZEUw37',
+117 silly reify   '/root/node_modules/concurrently': '/root/node_modules/.concurrently-7rj5gtZL',
+117 silly reify   '/root/node_modules/.bin/concurrently': '/root/node_modules/.bin/.concurrently-sjc5VXmy',
+117 silly reify   '/root/node_modules/.bin/conc': '/root/node_modules/.bin/.conc-PZ8WXixy',
+117 silly reify   '/root/node_modules/create-jest': '/root/node_modules/.create-jest-IsoRshUW',
+117 silly reify   '/root/node_modules/.bin/create-jest': '/root/node_modules/.bin/.create-jest-ITlG5LCb',
+117 silly reify   '/root/node_modules/cssesc': '/root/node_modules/.cssesc-o6Da7upu',
+117 silly reify   '/root/node_modules/.bin/cssesc': '/root/node_modules/.bin/.cssesc-xAzgvPPq',
+117 silly reify   '/root/node_modules/envinfo': '/root/node_modules/.envinfo-c1GkBIG7',
+117 silly reify   '/root/node_modules/.bin/envinfo': '/root/node_modules/.bin/.envinfo-lOVVp6PR',
+117 silly reify   '/root/node_modules/eslint-config-airbnb-base/node_modules/semver': '/root/node_modules/eslint-config-airbnb-base/node_modules/.semver-VQ0NgqFc',
+117 silly reify   '/root/node_modules/eslint-config-airbnb-base/node_modules/.bin/semver': '/root/node_modules/eslint-config-airbnb-base/node_modules/.bin/.semver-Xr2F4snF',
+117 silly reify   '/root/node_modules/eslint-plugin-import/node_modules/semver': '/root/node_modules/eslint-plugin-import/node_modules/.semver-mWu6uj6m',
+117 silly reify   '/root/node_modules/eslint-plugin-import/node_modules/.bin/semver': '/root/node_modules/eslint-plugin-import/node_modules/.bin/.semver-SRB59dYn',
+117 silly reify   '/root/node_modules/esprima': '/root/node_modules/.esprima-IL54f4hC',
+117 silly reify   '/root/node_modules/.bin/esparse': '/root/node_modules/.bin/.esparse-5pIsh9e1',
+117 silly reify   '/root/node_modules/.bin/esvalidate': '/root/node_modules/.bin/.esvalidate-iIJqZeB0',
+117 silly reify   '/root/node_modules/fastify-cli': '/root/node_modules/.fastify-cli-xsjCmILe',
+117 silly reify   '/root/node_modules/.bin/fastify': '/root/node_modules/.bin/.fastify-vFgbiJHp',
+117 silly reify   '/root/node_modules/fastify-objectionjs/node_modules/knex': '/root/node_modules/fastify-objectionjs/node_modules/.knex-wI1zulHV',
+117 silly reify   '/root/node_modules/fastify-objectionjs/node_modules/.bin/knex': '/root/node_modules/fastify-objectionjs/node_modules/.bin/.knex-ftYcXpC0',
+117 silly reify   '/root/node_modules/generify': '/root/node_modules/.generify-LUmjrkhD',
+117 silly reify   '/root/node_modules/.bin/generify': '/root/node_modules/.bin/.generify-iaT4ei3p',
+117 silly reify   '/root/node_modules/glob': '/root/node_modules/.glob-Cr1NFTAG',
+117 silly reify   '/root/node_modules/.bin/glob': '/root/node_modules/.bin/.glob-Nl9V0uJ9',
+117 silly reify   '/root/node_modules/import-local': '/root/node_modules/.import-local-hxp81ybT',
+117 silly reify   '/root/node_modules/.bin/import-local-fixture': '/root/node_modules/.bin/.import-local-fixture-7QEoXgBr',
+117 silly reify   '/root/node_modules/is-ci': '/root/node_modules/.is-ci-IAfBMdmc',
+117 silly reify   '/root/node_modules/.bin/is-ci': '/root/node_modules/.bin/.is-ci-lMheJp5R',
+117 silly reify   '/root/node_modules/is-expression/node_modules/acorn': '/root/node_modules/is-expression/node_modules/.acorn-YlfIDPdx',
+117 silly reify   '/root/node_modules/is-expression/node_modules/.bin/acorn': '/root/node_modules/is-expression/node_modules/.bin/.acorn-JQvuYT3P',
+117 silly reify   '/root/node_modules/is-docker': '/root/node_modules/.is-docker-KSH0H5Fl',
+117 silly reify   '/root/node_modules/.bin/is-docker': '/root/node_modules/.bin/.is-docker-iOhcpM2m',
+117 silly reify   '/root/node_modules/jest': '/root/node_modules/.jest-fOq1X1pe',
+117 silly reify   '/root/node_modules/.bin/jest': '/root/node_modules/.bin/.jest-7mJUysX5',
+117 silly reify   '/root/node_modules/jest-cli': '/root/node_modules/.jest-cli-yPWc3Xsn',
+117 silly reify   '/root/node_modules/js-beautify': '/root/node_modules/.js-beautify-jVW91x8d',
+117 silly reify   '/root/node_modules/.bin/css-beautify': '/root/node_modules/.bin/.css-beautify-YWndAIzR',
+117 silly reify   '/root/node_modules/.bin/html-beautify': '/root/node_modules/.bin/.html-beautify-DsupqwSO',
+117 silly reify   '/root/node_modules/.bin/js-beautify': '/root/node_modules/.bin/.js-beautify-s7uz2owu',
+117 silly reify   '/root/node_modules/js-yaml': '/root/node_modules/.js-yaml-41h5guEp',
+117 silly reify   '/root/node_modules/.bin/js-yaml': '/root/node_modules/.bin/.js-yaml-M8i2K1WA',
+117 silly reify   '/root/node_modules/jsesc': '/root/node_modules/.jsesc-HoQxXHpj',
+117 silly reify   '/root/node_modules/.bin/jsesc': '/root/node_modules/.bin/.jsesc-IJMoHDdG',
+117 silly reify   '/root/node_modules/json5': '/root/node_modules/.json5-excp5qNw',
+117 silly reify   '/root/node_modules/.bin/json5': '/root/node_modules/.bin/.json5-jrsagcMs',
+117 silly reify   '/root/node_modules/knex': '/root/node_modules/.knex-wiJsDw4v',
+117 silly reify   '/root/node_modules/.bin/knex': '/root/node_modules/.bin/.knex-cfrNrhnf',
+117 silly reify   '/root/node_modules/markdown-it': '/root/node_modules/.markdown-it-xuSBXiQN',
+117 silly reify   '/root/node_modules/.bin/markdown-it': '/root/node_modules/.bin/.markdown-it-ZHIVbpsp',
+117 silly reify   '/root/node_modules/mime': '/root/node_modules/.mime-Za7YrxDN',
+117 silly reify   '/root/node_modules/.bin/mime': '/root/node_modules/.bin/.mime-nsWbXF7T',
+117 silly reify   '/root/node_modules/mkdirp': '/root/node_modules/.mkdirp-ei1DIZgO',
+117 silly reify   '/root/node_modules/.bin/mkdirp': '/root/node_modules/.bin/.mkdirp-dV3nCwMf',
+117 silly reify   '/root/node_modules/mustache': '/root/node_modules/.mustache-WUZuSSJv',
+117 silly reify   '/root/node_modules/.bin/mustache': '/root/node_modules/.bin/.mustache-TbE8SFFk',
+117 silly reify   '/root/node_modules/nanoid': '/root/node_modules/.nanoid-HSJ3Xm5L',
+117 silly reify   '/root/node_modules/.bin/nanoid': '/root/node_modules/.bin/.nanoid-A5WjmDux',
+117 silly reify   '/root/node_modules/node-gyp': '/root/node_modules/.node-gyp-z0pQTeOe',
+117 silly reify   '/root/node_modules/.bin/node-gyp': '/root/node_modules/.bin/.node-gyp-MjPvSzKm',
+117 silly reify   '/root/node_modules/nopt': '/root/node_modules/.nopt-7xl4homY',
+117 silly reify   '/root/node_modules/.bin/nopt': '/root/node_modules/.bin/.nopt-SwaP0DkF',
+117 silly reify   '/root/node_modules/node-gyp-build': '/root/node_modules/.node-gyp-build-DuWrOPRI',
+117 silly reify   '/root/node_modules/.bin/node-gyp-build': '/root/node_modules/.bin/.node-gyp-build-0PKIhFAi',
+117 silly reify   '/root/node_modules/.bin/node-gyp-build-optional': '/root/node_modules/.bin/.node-gyp-build-optional-2NONT0dZ',
+117 silly reify   '/root/node_modules/.bin/node-gyp-build-test': '/root/node_modules/.bin/.node-gyp-build-test-qMSGoCqG',
+117 silly reify   '/root/node_modules/npm-check-updates': '/root/node_modules/.npm-check-updates-nj3MmV9Q',
+117 silly reify   '/root/node_modules/.bin/npm-check-updates': '/root/node_modules/.bin/.npm-check-updates-YBaa8xGM',
+117 silly reify   '/root/node_modules/.bin/ncu': '/root/node_modules/.bin/.ncu-frGnuAdb',
+117 silly reify   '/root/node_modules/pacote': '/root/node_modules/.pacote-u191URh1',
+117 silly reify   '/root/node_modules/.bin/pacote': '/root/node_modules/.bin/.pacote-y72xTjIg',
+117 silly reify   '/root/node_modules/parse-github-url': '/root/node_modules/.parse-github-url-We2jn2aY',
+117 silly reify   '/root/node_modules/.bin/parse-github-url': '/root/node_modules/.bin/.parse-github-url-RGtYo0sU',
+117 silly reify   '/root/node_modules/pino': '/root/node_modules/.pino-5MuWbQu3',
+117 silly reify   '/root/node_modules/.bin/pino': '/root/node_modules/.bin/.pino-5coI2jbF',
+117 silly reify   '/root/node_modules/pino-pretty': '/root/node_modules/.pino-pretty-hA0QZ0dk',
+117 silly reify   '/root/node_modules/.bin/pino-pretty': '/root/node_modules/.bin/.pino-pretty-SUovyHbg',
+117 silly reify   '/root/node_modules/prebuild-install': '/root/node_modules/.prebuild-install-E6rmZTr3',
+117 silly reify   '/root/node_modules/.bin/prebuild-install': '/root/node_modules/.bin/.prebuild-install-4gUnI96j',
+117 silly reify   '/root/node_modules/rc': '/root/node_modules/.rc-UyLnIQEI',
+117 silly reify   '/root/node_modules/.bin/rc': '/root/node_modules/.bin/.rc-rygblVuP',
+117 silly reify   '/root/node_modules/resolve': '/root/node_modules/.resolve-Ct7MlKyN',
+117 silly reify   '/root/node_modules/.bin/resolve': '/root/node_modules/.bin/.resolve-qGtaNBbV',
+117 silly reify   '/root/node_modules/rimraf': '/root/node_modules/.rimraf-BiF83W0Z',
+117 silly reify   '/root/node_modules/.bin/rimraf': '/root/node_modules/.bin/.rimraf-FkHhBTs1',
+117 silly reify   '/root/node_modules/semver': '/root/node_modules/.semver-LlcJiqPo',
+117 silly reify   '/root/node_modules/.bin/semver': '/root/node_modules/.bin/.semver-X4bL6afu',
+117 silly reify   '/root/node_modules/sequelize-cli': '/root/node_modules/.sequelize-cli-1BXmDogW',
+117 silly reify   '/root/node_modules/.bin/sequelize': '/root/node_modules/.bin/.sequelize-gkQZAH3I',
+117 silly reify   '/root/node_modules/.bin/sequelize-cli': '/root/node_modules/.bin/.sequelize-cli-cwlg32HS',
+117 silly reify   '/root/node_modules/sigstore': '/root/node_modules/.sigstore-uwgBBhhW',
+117 silly reify   '/root/node_modules/.bin/sigstore': '/root/node_modules/.bin/.sigstore-T3FgVF7x',
+117 silly reify   '/root/node_modules/sqlite3/node_modules/node-gyp': '/root/node_modules/sqlite3/node_modules/.node-gyp-7noDxgDt',
+117 silly reify   '/root/node_modules/sqlite3/node_modules/.bin/node-gyp': '/root/node_modules/sqlite3/node_modules/.bin/.node-gyp-4VVzTzI9',
+117 silly reify   '/root/node_modules/terser': '/root/node_modules/.terser-F8yAw1yL',
+117 silly reify   '/root/node_modules/.bin/terser': '/root/node_modules/.bin/.terser-oAu5fMSg',
+117 silly reify   '/root/node_modules/tsconfig-paths/node_modules/json5': '/root/node_modules/tsconfig-paths/node_modules/.json5-l19ifVTm',
+117 silly reify   '/root/node_modules/tsconfig-paths/node_modules/.bin/json5': '/root/node_modules/tsconfig-paths/node_modules/.bin/.json5-rNHkqyau',
+117 silly reify   '/root/node_modules/update-browserslist-db': '/root/node_modules/.update-browserslist-db-VNJh0DJg',
+117 silly reify   '/root/node_modules/.bin/update-browserslist-db': '/root/node_modules/.bin/.update-browserslist-db-IoevZa9t',
+117 silly reify   '/root/node_modules/uuid': '/root/node_modules/.uuid-OWuVkhUa',
+117 silly reify   '/root/node_modules/.bin/uuid': '/root/node_modules/.bin/.uuid-VuCIYxRg',
+117 silly reify   '/root/node_modules/webpack-cli': '/root/node_modules/.webpack-cli-fK4z9ihy',
+117 silly reify   '/root/node_modules/.bin/webpack-cli': '/root/node_modules/.bin/.webpack-cli-25FNFb3r',
+117 silly reify   '/root/node_modules/which': '/root/node_modules/.which-z60UCntU',
+117 silly reify   '/root/node_modules/.bin/node-which': '/root/node_modules/.bin/.node-which-VH6UPKP7',
+117 silly reify   '/root/node_modules/@babel/core/node_modules/semver': '/root/node_modules/@babel/core/node_modules/.semver-nBfbypaY',
+117 silly reify   '/root/node_modules/@babel/core/node_modules/.bin/semver': '/root/node_modules/@babel/core/node_modules/.bin/.semver-n2YomE0q',
+117 silly reify   '/root/node_modules/@babel/helper-compilation-targets/node_modules/semver': '/root/node_modules/@babel/helper-compilation-targets/node_modules/.semver-lZUoN5nY',
+117 silly reify   '/root/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver': '/root/node_modules/@babel/helper-compilation-targets/node_modules/.bin/.semver-ZGRPGJjz',
+117 silly reify   '/root/node_modules/@babel/parser': '/root/node_modules/@babel/.parser-Tyl3AGhh',
+117 silly reify   '/root/node_modules/.bin/parser': '/root/node_modules/.bin/.parser-Fjq1MvvO',
+117 silly reify   '/root/node_modules/@fastify/secure-session': '/root/node_modules/@fastify/.secure-session-ng62SCJU',
+117 silly reify   '/root/node_modules/.bin/secure-session': '/root/node_modules/.bin/.secure-session-oGVOQquB',
+117 silly reify   '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/js-yaml': '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/.js-yaml-vRvOnXtV',
+117 silly reify   '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/.bin/js-yaml': '/root/node_modules/@istanbuljs/load-nyc-config/node_modules/.bin/.js-yaml-kGJEBZnQ',
+117 silly reify   '/root/node_modules/tree-kill': '/root/node_modules/.tree-kill-dPz5Xx1I',
+117 silly reify   '/root/node_modules/.bin/tree-kill': '/root/node_modules/.bin/.tree-kill-dyaryxUK',
+117 silly reify   '/root/node_modules/@npmcli/git/node_modules/which': '/root/node_modules/@npmcli/git/node_modules/.which-qECG2JBH',
+117 silly reify   '/root/node_modules/@npmcli/git/node_modules/.bin/node-which': '/root/node_modules/@npmcli/git/node_modules/.bin/.node-which-UfaBoTNH',
+117 silly reify   '/root/node_modules/@npmcli/installed-package-contents': '/root/node_modules/@npmcli/.installed-package-contents-Q1IbLKlw',
+117 silly reify   '/root/node_modules/.bin/installed-package-contents': '/root/node_modules/.bin/.installed-package-contents-BMRoNXHs',
+117 silly reify   '/root/node_modules/@npmcli/promise-spawn/node_modules/which': '/root/node_modules/@npmcli/promise-spawn/node_modules/.which-J14P70AU',
+117 silly reify   '/root/node_modules/@npmcli/promise-spawn/node_modules/.bin/node-which': '/root/node_modules/@npmcli/promise-spawn/node_modules/.bin/.node-which-F2IDb1k2',
+117 silly reify   '/root/node_modules/@npmcli/run-script/node_modules/which': '/root/node_modules/@npmcli/run-script/node_modules/.which-6ZkQdSme',
+117 silly reify   '/root/node_modules/@npmcli/run-script/node_modules/.bin/node-which': '/root/node_modules/@npmcli/run-script/node_modules/.bin/.node-which-SBwKZNyV',
+117 silly reify   '/root/node_modules/editorconfig': '/root/node_modules/.editorconfig-O3CVGxEU',
+117 silly reify   '/root/node_modules/.bin/editorconfig': '/root/node_modules/.bin/.editorconfig-MLtrM6H3'
+117 silly reify }
+118 timing reify:rollback:retireShallow Completed in 403ms
+119 timing command:install Completed in 4680ms
+120 verbose stack Error: ENOTEMPTY: directory not empty, rename '/root/node_modules/better-sqlite3' -> '/root/node_modules/.better-sqlite3-05zcEFE3'
+121 verbose cwd /root
+122 verbose Linux 5.15.146.1-microsoft-standard-WSL2
+123 verbose node v20.12.2
+124 verbose npm  v10.5.0
+125 error code ENOTEMPTY
+126 error syscall rename
+127 error path /root/node_modules/better-sqlite3
+128 error dest /root/node_modules/.better-sqlite3-05zcEFE3
+129 error errno -39
+130 error ENOTEMPTY: directory not empty, rename '/root/node_modules/better-sqlite3' -> '/root/node_modules/.better-sqlite3-05zcEFE3'
+131 verbose exit -39
+132 timing npm Completed in 4991ms
+133 verbose unfinished npm timer reify 1716972006511
+134 verbose unfinished npm timer reify:retireShallow 1716972010161
+135 verbose code -39
+136 error A complete log of this run can be found in: /root/.npm/_logs/2024-05-29T08_40_06_207Z-debug-0.log
