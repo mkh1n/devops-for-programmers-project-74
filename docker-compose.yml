@@ -4,8 +4,5 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ./app:/app
-    environment:
-      - NODE_ENV=development
+      dockerfile: ./Dockerfile.production
+    command: npm test
